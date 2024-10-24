@@ -9,7 +9,11 @@ export default function Home() {
             cols={50}
           />
         </div>
-        <div className="w-full h-full"></div>
+        <div className="w-full h-full">
+          <div className="w-14 h-7 bg-slate-50 rounded text-black cursor-pointer">
+            Count
+          </div>
+        </div>
       </div>
     </main>
   );
