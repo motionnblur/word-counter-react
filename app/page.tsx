@@ -6,6 +6,7 @@ export default function Home() {
         <div className="w-14 h-7 bg-slate-50 rounded text-black cursor-pointer mt-4">
           Count
         </div>
+        <div className="mt-8 text-3xl">0</div>
       </div>
     </main>
   );
